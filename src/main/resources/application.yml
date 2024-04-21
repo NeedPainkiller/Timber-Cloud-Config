@@ -1,0 +1,30 @@
+server:
+  port: 8088
+
+spring:
+  application.name: Timber-Cloud-Config
+  cloud:
+    bus:
+      destination: timber__topic-config-application-local
+    config:
+      enabled: true
+      server:
+        jdbc:
+          sql: select prop_key, prop_value from remote_configurations where application=? and profile=? and label=?
+  datasource:
+    driver-class-name:
+    url:
+    username:
+    password:
+    connectionTimeout: 60000
+    minimumIdle: 10
+    maximumPoolSize: 300
+    maxLifetime: 175000
+    autoReconnect: true
+    validationQuery: select 1
+    leakDetectionThreshold: 60000
+    hikari:
+      leak-detection-threshold: 60000
+
+  kafka:
+    bootstrap-servers: 192.168.0.14:29092,192.168.0.14:29093,192.168.0.14:29094

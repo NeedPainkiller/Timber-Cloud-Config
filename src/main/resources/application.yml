@@ -1,5 +1,5 @@
 server:
-  port: 8088
+  port:
 
 spring:
   application.name: Timber-Cloud-Config
@@ -25,6 +25,3 @@ spring:
     leakDetectionThreshold: 60000
     hikari:
       leak-detection-threshold: 60000
-
-  kafka:
-    bootstrap-servers: 192.168.0.14:29092,192.168.0.14:29093,192.168.0.14:29094

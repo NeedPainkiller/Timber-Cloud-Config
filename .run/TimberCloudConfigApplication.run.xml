@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="TimberCloudConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+    <module name="Timber-Cloud-Config.main" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="xyz.needpankiller.timber.cloud.TimberCloudConfigApplication" />
+    <option name="VM_PARAMETERS" value="-server -Dspring.profiles.active=local,jdbc,mariadb,kafka -Djava.net.preferIPv4Stack=true" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

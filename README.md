@@ -30,7 +30,7 @@ npm install
 ## Running the app
 
 ```bash
-java.exe -server -Dspring.profiles.active=local,jdbc,mariadb,kafka -Djava.net.preferIPv4Stack=true x.x.x.jar xyz.needpankiller.timber.cloud.TimberCloudConfigApplication 
+java.exe -server -Dspring.profiles.active=local,jdbc,mariadb,kafka -Djava.net.preferIPv4Stack=true x.x.x.jar xyz.needpankiller.timber.config.TimberCloudConfigApplication 
 # or
 ./.run/TIMBER-LOCAL-MARIADB.run.xml
 ```
@@ -79,7 +79,7 @@ Spring Cloud Config service for [Timber](https://github.com/NeedPainkiller/Timbe
 ## Running the app
 
 ```bash
-java.exe -server -Dspring.profiles.active=local,jdbc,mariadb,kafka -Djava.net.preferIPv4Stack=true x.x.x.jar xyz.needpankiller.timber.cloud.TimberCloudConfigApplication 
+java.exe -server -Dspring.profiles.active=local,jdbc,mariadb,kafka -Djava.net.preferIPv4Stack=true x.x.x.jar xyz.needpankiller.timber.config.TimberCloudConfigApplication 
 # or
 ./.run/TIMBER-LOCAL-MARIADB.run.xml
 ```
@@ -126,7 +126,7 @@ Timber-Sawmill is [MIT licensed](LICENSE).
 ## Running the app
 
 ```bash
-java.exe -server -Dspring.profiles.active=local,jdbc,mariadb,kafka -Djava.net.preferIPv4Stack=true x.x.x.jar xyz.needpankiller.timber.cloud.TimberCloudConfigApplication 
+java.exe -server -Dspring.profiles.active=local,jdbc,mariadb,kafka -Djava.net.preferIPv4Stack=true x.x.x.jar xyz.needpankiller.timber.config.TimberCloudConfigApplication 
 # 또는 아래 xml 실행 명세를 확인하세요
 ./.run/TIMBER-LOCAL-MARIADB.run.xml
 ```
